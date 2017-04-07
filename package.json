@@ -1,5 +1,5 @@
 {
-  "name": "redux-saga-callback-thunk",
+  "name": "redux-saga-middleware",
   "version": "0.0.1",
   "description": "redux thunk for achieving callbacks in redux-saga",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wangtao0101/redux-saga-callback-thunk.git"
+    "url": "git+https://github.com/wangtao0101/redux-saga-middleware.git"
   },
   "keywords": [
     "redux-saga",
@@ -19,9 +19,9 @@
   "author": "wangtao0101",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/wangtao0101/redux-saga-callback-thunk/issues"
+    "url": "https://github.com/wangtao0101/redux-saga-middleware/issues"
   },
-  "homepage": "https://github.com/wangtao0101/redux-saga-callback-thunk#readme",
+  "homepage": "https://github.com/wangtao0101/redux-saga-middleware#readme",
   "dependencies": {},
   "devDependencies": {
     "babel-core": "^6.24.0",
