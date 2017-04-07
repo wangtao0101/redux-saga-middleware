@@ -1,0 +1,38 @@
+{
+  "name": "redux-saga-callback-thunk",
+  "version": "0.0.1",
+  "description": "redux thunk for achieving callbacks in redux-saga",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wangtao0101/redux-saga-callback-thunk.git"
+  },
+  "keywords": [
+    "redux-saga",
+    "callback",
+    "promise",
+    "react"
+  ],
+  "author": "wangtao0101",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wangtao0101/redux-saga-callback-thunk/issues"
+  },
+  "homepage": "https://github.com/wangtao0101/redux-saga-callback-thunk#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-core": "^6.24.0",
+    "babel-eslint": "^7.2.1",
+    "babel-jest": "^19.0.0",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2015": "^6.24.0",
+    "babel-preset-stage-0": "^6.22.0",
+    "jest": "^19.0.2",
+    "redux": "^3.6.0",
+    "redux-saga": "^0.14.5",
+    "webpack": "^2.3.3"
+  }
+}
