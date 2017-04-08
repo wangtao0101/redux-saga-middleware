@@ -44,7 +44,7 @@ test('dispatch a reject action', () => {
 
 test('dispatch a anyc action', () => {
     const p = store.dispatch(asynAction())
-    return p.catch(data => {
+    return p.then(data => {
         expect(data).toEqual({a : 'a'});
     })
 });
