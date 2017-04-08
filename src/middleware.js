@@ -1,11 +1,11 @@
 /**
  * redux saga middleware
  */
-const actionNamespace = '@redux-saga-action';
+import { actionMeta } from './constants';
 
 export default function middleware(store){
     return next => action => {
-        if (action.namespace === actionNamespace) {
+        if (action.meta === actionMeta) {
             return new Promise((resolve, reject) => {
                 action.resolve = resolve;
                 action.reject = reject;

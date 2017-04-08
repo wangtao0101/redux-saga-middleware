@@ -1,5 +1,7 @@
-function cca(a, b){
-    return a + b;
-}
+import createAction from './createAction';
+import reduxSagaMiddleware from './middleware'
 
-export default cca;
+export {
+    createAction,
+    reduxSagaMiddleware,
+};

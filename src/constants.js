@@ -1,0 +1,1 @@
+export const actionMeta = '@redux-saga-action';

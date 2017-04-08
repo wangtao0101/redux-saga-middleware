@@ -4,6 +4,7 @@
   "description": "redux thunk for achieving callbacks in redux-saga",
   "main": "index.js",
   "scripts": {
+    "build": "babel src -d lib --ignore *.test.js",
     "test": "jest"
   },
   "repository": {
@@ -22,8 +23,11 @@
     "url": "https://github.com/wangtao0101/redux-saga-middleware/issues"
   },
   "homepage": "https://github.com/wangtao0101/redux-saga-middleware#readme",
-  "dependencies": {},
+  "dependencies": {
+    "redux-actions": "^2.0.1"
+  },
   "devDependencies": {
+    "babel-cli": "^6.24.1",
     "babel-core": "^6.24.0",
     "babel-eslint": "^7.2.1",
     "babel-jest": "^19.0.0",
@@ -32,6 +36,7 @@
     "babel-preset-es2015": "^6.24.0",
     "babel-preset-stage-0": "^6.22.0",
     "jest": "^19.0.2",
+    "lodash": "^4.17.4",
     "redux": "^3.6.0",
     "redux-mock-store": "^1.2.2",
     "redux-saga": "^0.14.5",
