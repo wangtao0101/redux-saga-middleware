@@ -21,7 +21,7 @@ function* errorSaga(action){
         yield call(delay, 500);
         throw new Error('error');
     }catch(err){
-
+        //eslint-disable-line
     }
     finally{
         action.reject({a : 'a'})

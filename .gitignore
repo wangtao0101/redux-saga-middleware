@@ -34,3 +34,5 @@ npm-debug.*
 .idea
 dist/
 .DS_Store
+
+lib/

@@ -3,5 +3,5 @@ import reduxSagaMiddleware from './middleware'
 
 export {
     createAction,
-    reduxSagaMiddleware,
-};
+    reduxSagaMiddleware
+}

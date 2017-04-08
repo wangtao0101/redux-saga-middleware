@@ -3,7 +3,7 @@
  */
 import { actionMeta } from './constants';
 
-export default function middleware(store){
+export default function middleware(_store){
     return next => action => {
         if (action.meta === actionMeta) {
             return new Promise((resolve, reject) => {

@@ -2,19 +2,18 @@ import createSagaMiddleware from 'redux-saga'
 import {applyMiddleware, createStore} from 'redux';
 import 'babel-polyfill';
 import saga from './saga';
-import _ from 'lodash';
 import { reduxSagaMiddleware, createAction } from '../'
 
 const sagaMiddleware = createSagaMiddleware();
 const middlewares = [sagaMiddleware, reduxSagaMiddleware]
 
-function reducer(state, action) {
+function reducer(state, _action) {
     return state;
 }
 
 const store = createStore(
     reducer,
-    applyMiddleware(...middlewares),
+    applyMiddleware(...middlewares)
 );
 
 sagaMiddleware.run(saga);

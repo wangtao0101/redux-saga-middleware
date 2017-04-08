@@ -15,7 +15,7 @@ test('create action', () => {
         meta : actionMeta,
         payload : {
             a : { c : 'd'},
-            b : 'b'
-        }
+            b : 'b',
+        },
     });
 });

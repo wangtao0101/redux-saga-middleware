@@ -9,7 +9,7 @@ export default function(type){
     const actionCreator  = (...args) => {
         const action = {
             type,
-            meta : actionMeta
+            meta : actionMeta,
         };
         action.payload = args[0];
         return action;

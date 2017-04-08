@@ -9,7 +9,8 @@
         "browser": true,
         "amd": true,
         "es6": true,
-        "node": true
+        "node": true,
+        "jest": true,
     },
     "extends": "eslint:recommended",
     "rules" : {
@@ -19,6 +20,12 @@
             "imports": "never",
             "exports": "never",
             "functions": "never"
-        }]
+        }],
+        "no-unused-vars": [2, {
+            "varsIgnorePattern": "[iI]gnored",
+            "args": "all",
+            "argsIgnorePattern": "^_",
+            "caughtErrors": "none"
+        }],
     }
 }
